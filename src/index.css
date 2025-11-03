@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-expense: #9b87f5;
+  --color-expense-dark: #6e59a5;
+  --color-expense-light: #b5a8f7;
+}
+
+@variant dark (.dark &);
+
+* {
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+html {
+  color-scheme: light dark;
+}
+
+body {
+  @apply bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100;
+}
