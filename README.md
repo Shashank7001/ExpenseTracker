@@ -23,6 +23,11 @@ Includes dark mode, persistent storage, charts, and a modern UI designed with Ta
 |------------|------------|
 | ![Light Mode Screenshot](./screenshots/Light.png) | ![Dark Mode Screenshot](./screenshots/Dark.png) |
 
+| Doughnut Chart | Line Chart |
+|------------|------------|
+| ![Doughnut Chart Screenshot](./screenshots/Doughnut.png) | ![Line Chart Screenshot](./screenshots/Line.png) |
+
+
 
 
 ---
