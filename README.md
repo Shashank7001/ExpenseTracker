@@ -1,16 +1,50 @@
-# React + Vite
+# 💰 Money Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, responsive **Expense & Income Tracker** built with **React** — helping you visualize where your money goes and how much you save.  
+Includes dark mode, persistent storage, charts, and a modern UI designed with Tailwind CSS.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+- 📊 **Interactive Analytics:** Visualize your income and expenses with beautiful charts (Recharts).
+- 💾 **Local Storage Persistence:** Your data stays even after you refresh or close the browser.
+- 🌙 **Dark / Light Mode:** Toggle themes instantly using a context-based theme switcher.
+- 💸 **Add & Delete Transactions:** Manage both income and expense lists in real-time.
+- ⚡ **Toast Notifications:** Clean feedback using `react-hot-toast`.
+- 🧭 **Smooth Navigation:** Elegant sidebar with scroll-to-section functionality.
+- 🎨 **Modern UI:** Built with TailwindCSS + Lucide icons for a sleek, accessible experience.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🖼️ Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Light Mode | Dark Mode |
+|------------|------------|
+| ![Light Mode Screenshot](./screenshots/Light.png) | ![Dark Mode Screenshot](./screenshots/Dark.png) |
+
+
+
+---
+
+## 🧠 Project Overview
+
+Money Tracker is a simple yet powerful personal finance dashboard.  
+It uses **React Context + Reducer** to manage global state for expenses and income, ensuring scalable and maintainable data flow without extra dependencies.
+
+---
+
+## 🧱 Tech Stack
+
+| Category | Technology |
+|-----------|-------------|
+| Frontend Framework | React (Vite or CRA) |
+| Styling | Tailwind CSS |
+| Icons | Lucide React |
+| Charts | Recharts |
+| Notifications | React Hot Toast |
+| State Management | React Context + Reducer |
+| Storage | LocalStorage |
+
+---
+
